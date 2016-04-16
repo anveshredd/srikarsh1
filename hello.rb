@@ -6,6 +6,3 @@ class HelloWorld
       puts "hi #{@name}!"
    end
 end
-
-hello = HelloWorld.new("World")
-hello.sayHi
