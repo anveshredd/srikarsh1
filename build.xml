@@ -1,3 +1,7 @@
+<target name="init">
+    <mkdir dir="build/classes" />
+    <mkdir dir="dist" />
+</target>
 <target name="compile" depends="init">
     <javac srcdir="src" destdir="build/classes" />
 </target>
