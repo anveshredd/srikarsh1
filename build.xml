@@ -1,0 +1,7 @@
+<target name="compile" depends="init">
+    <javac srcdir="src" destdir="build/classes" />
+</target>
+
+<target name="compress" depends="compile">
+        <jar destfile="dist/HelloWorld.jar" basedir="build/classes" />
+</target>
